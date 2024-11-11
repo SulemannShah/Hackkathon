@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #e3e3e3, #ffffff);
+    margin: 0;
+    padding: 100px;
+   max-width: 1330px;
+   width: 100%;
+   
+     
+}
+
+.resume-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+.left-section {
+    background: #011e50;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #efefef;
+    margin-bottom: 20px;
+    object-fit: cover;
+    
+}
+
+.profile-picture:hover{
+    transform: scale(1.1);
+    transform: 1.5s;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: start;
+    color: #011e50;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #383838;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #11336e
+    
+}
+
+h3:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: 3px solid #011e50;
+    background-color:#011e50;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffff;
+    color: #011e50;
+    font-weight: 700;
+}
+
+#objective p{
+    text-align: justify;
+    hyphens: auto;
+}
+
+#objective h3{
+    color: white;
+    box-shadow: 0 0 10px #ffffff;
+
+}
+
+#certification h3{
+    color: white;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+#ocertification  p{
+    text-align: justify;
+    hyphens: auto;
+}
+
+#objective{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#certification{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.para-wrapper{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+
